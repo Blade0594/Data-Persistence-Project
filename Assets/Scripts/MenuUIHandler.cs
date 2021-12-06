@@ -19,7 +19,7 @@ public class MenuUIHandler : MonoBehaviour
         bestScore = MainGameManager.Instance.highScore;
         if (bestScore != 0)
         {
-            bestScoreText.text = "Beset Score : " + bestPlayer + " : " + bestScore;
+            bestScoreText.text = "Best Score : " + bestPlayer + " : " + bestScore;
         }
         MainGameManager.Instance.LoadInputName();
     }
